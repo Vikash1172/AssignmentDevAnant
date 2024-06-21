@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        select{
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            width: 20rem;
+            height: auto;
+            background-color:rgb(57, 57, 57);
+            color: white;
+            text-align: center;
+            font-size: 3em;
+            padding: 2px;
+            position: absolute;
+            top: 25%;
+            left: 45%;
+            transition: all 0.5s ease-in-out 0s;
+        }
+        .select::after{
+            content: '';
+        }
+    </style>
+</head>
+<body>
+    <div class="select">
+        <select name="Menu" id="Menu">
+            <option value="">Menu</option>
+            <option value="Home">Item-1</option>
+            <option value="About">Item-2</option>
+            <option value="Services">Item-3</option>
+            <option value="Contact">Item-4</option>
+            <option value="dfk">Item-5</option>
+
+
+        </select>
+    </div>
+    
+</body>
+</html>

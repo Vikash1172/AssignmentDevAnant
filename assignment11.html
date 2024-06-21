@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+
+        }
+        header{
+            margin:10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header a{
+            text-decoration:none;
+            color: rgb(81, 77, 77);
+            margin: 0 10px 0 10px;
+        }
+        .main{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position:absolute;
+            top: 25%;    
+        }
+        .main h2{
+            font-family: 'Bungee Spice', cursive;
+            font-size: 3.8rem;
+            margin: 10px;
+        }
+        .main a{
+            text-decoration:none;
+            color: rgb(25, 25, 25);
+            margin: 10px;
+            background-color: rgb(227, 227, 227);
+            padding: 5px;
+            border-radius: 8px;
+        }
+        .main img{
+            width: 10%;
+        }
+        .search{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 15px;
+            border: 2px solid rgb(103, 102, 102);
+            border-radius: 16px;
+            width: 50%;
+        }
+        .search input{
+            width: 100%;
+            padding: 5px;
+            border: none;
+            border-radius: 16px;
+            font-size: 1.2em;
+        }
+        .search button{
+            border: none;
+            font-size: 1.5rem;
+        }
+        .search input:focus{
+            outline: none;
+        }
+        footer{
+            height: 5%;
+            width: 100%;
+            position: absolute;
+            bottom:0;
+            background-color: rgb(227, 227, 227);
+
+
+        }
+        footer div{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0;
+
+        }
+        footer a{
+            text-decoration:none;
+            color: rgb(78, 70, 70);
+            margin: 0 10px 0 10px;
+        }
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+        </div>
+        <div class="right">
+            <a href="#">Profile</a>
+            <a href="#">Setting</a>
+        </div>
+    </header>
+    <div class="main">
+        <img src="odin.png" alt="">
+        <h2>THE ODIN PROJECT</h2>
+        <div class="search"><input type="text"></div>
+        <div class="things">
+            <a href="next.html">Do the Thing!</a>
+            <a href="#">Do the other Thing!</a>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div class="f-left">
+            <a href="#">Advetising</a>
+            <a href="#">Business</a>
+        </div>
+        <div class="f-right">
+            <a href="#">Privacy</a>
+            <a href="#">Term</a>
+        </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
